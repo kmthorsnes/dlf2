@@ -17,8 +17,71 @@
     ></script>
   </head>
   <body>
-    <div id="checkin_registration"></div>
-
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div class="min-h-dvh flex flex-col">
+      <header
+        class="p-5 bg-white shadow-md border border-b-2 border-black z-50 flex justify-between"
+      >
+        <a href="https://www.dlf.no/" target="_blank" rel="noopener noreferrer"
+          ><img src="/assets/dlflogo-ZL-sNjDK.webp" alt="Logo" class="h-10"
+        /></a>
+      </header>
+      <div
+        class="grow bg-cover bg-center font-display"
+        style="background-image: url('/assets/tonsberg2-BKkveWto.jpg')"
+      >
+        <main
+          class="md:p-20 p-5 flex items-center justify-center h-full opacity-90"
+        >
+          <div
+            class="p-5 md:p-20 bg-white rounded shadow-lg text-center text-black"
+          >
+            <h1 class="text-3xl">
+              Velkommen til DLF Høstmøte torsdag 17. oktober i Tønsberg!
+            </h1>
+            <div class="mt-10 md:px-20 text-left">
+              <p class="text-lg mt-2">
+                Registrering fra kl. 09:30. Konferansedagen starter presis kl.
+                10:00.
+              </p>
+              <h2 class="text-xl mt-4">Pris og påmelding</h2>
+              <ul class="list-disc mt-2">
+                <li class="list-inside">
+                  Konferanseavgift kr. 6.590,- eks. mva., inkluderer fagdag og
+                  middag.
+                </li>
+                <li class="list-inside">
+                  Overnatting kr. 1.400,- eks. mva. per natt.
+                </li>
+                <li class="list-inside">
+                  Presse betaler kun for eventuell overnatting.
+                </li>
+                <li class="list-inside">
+                  Digital tilgang på fagdagen kr. 470,- eks. mva.
+                </li>
+              </ul>
+              <p class="mt-4 text-l">
+                Dersom du ikke har anledning til å delta på middagen, ber vi om
+                å få beskjed om dette med hensyn til planleggingen.
+              </p>
+              <p class="text-l font-bold mt-4">
+                Vi minner om at påmeldingen er bindende.
+              </p>
+            </div>
+            <div id="checkin_registration"></div>
+            <script
+              src="https://registration.checkin.no/registration.loader.js"
+              data-event-id="78425"
+              async=""
+            ></script>
+          </div>
+        </main>
+        <footer>
+          Utviklet av
+          <a href="https://www.p-e.no" target="_blank" rel="noopener noreferrer"
+            >Pitch event</a
+          >
+        </footer>
+      </div>
+    </div>
   </body>
 </html>
